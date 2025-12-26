@@ -1,4 +1,8 @@
 /* Add CSS Styling */
+*{
+    outline: 2px solid red;
+}
+
 .avatar.proportioned{
     height: auto;
     width: 300px;
