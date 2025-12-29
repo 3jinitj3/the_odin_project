@@ -1,3 +1,123 @@
-* {
-    
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    padding: 24px;
+}
+
+.logo-links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+.website-intro {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+}
+
+button {
+    border-radius: 15%;
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 24;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+}
+
+.industries {
+    height: 75px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.industry-containers {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.info {
+    flex: 1;
+    gap: 42px;
+    font-size: 16px;
+    border: 2px solid grey;
+}
+
+.quote {
+    padding: 64px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 60px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.contact {
+    border: 3px solid white;
+}
+
+.footer {
+    padding: 120px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
+    height: 50px;
+    flex-shrink: 0;
 }
