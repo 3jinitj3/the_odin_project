@@ -69,16 +69,10 @@ body {
   padding: 8px;
 }
 
-.left-links {
+.left-links, .right-links {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   gap: 8px;
 }
 
-.right-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 8px;
-}
